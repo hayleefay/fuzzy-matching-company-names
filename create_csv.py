@@ -5,8 +5,8 @@ import os
 import pickle
 filepath_root = os.getcwd()
 
-input_file = 'output.txt'
-output_file = 'matches.csv'
+input_file = '/output.txt'
+output_file = '/matches.csv'
 
 with open(filepath_root + input_file) as f:
     with open(filepath_root + output_file, 'w') as out_file:
